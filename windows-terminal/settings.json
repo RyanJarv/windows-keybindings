@@ -1,0 +1,33 @@
+{
+	"$schema" : "https://aka.ms/terminal-profiles-schema",
+	"actions" : 
+	[
+		{
+			"command" : 
+			{
+				"action" : "copy",
+				"singleLine" : false
+			},
+			"keys" : "ctrl+c"
+		},
+		{
+			"command" : "paste",
+			"keys" : "ctrl+v"
+		},
+		{
+			"command" : "find",
+			"keys" : "ctrl+shift+f"
+		},
+		{
+			"command" : 
+			{
+				"action" : "splitPane",
+				"split" : "auto",
+				"splitMode" : "duplicate"
+			},
+			"keys" : "alt+shift+d"
+		},
+		{ "command": "closePane", "keys": "ctrl+w" },
+		{ "command": { "action": "newTab", "index": 0 }, "keys": "ctrl+t"}
+	]
+}
